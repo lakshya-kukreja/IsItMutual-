@@ -11,7 +11,7 @@
 
 🔗 **Live Application URL:** [https://isitmutual.onrender.com](https://isitmutual.onrender.com)  
 📖 **Interactive API Documentation (Swagger UI):** [https://isitmutual.onrender.com/docs](https://isitmutual.onrender.com/docs)  
-🐙 **GitHub Repository:** [https://github.com/lakshya-kukreja/IsItMutual-](https://github.com/lakshya-kukreja/IsItMutual-)
+🐙 **GitHub Repository:** [https://github.com/lakshya-kukreja/IsItMutual-](https://github.com/lakshya-kukreja/IsItMutual-)<br>
 ⬇️ **Dataset Download Link:** [https://github.com/lakshya-kukreja/IsItMutual-](https://github.com/lakshya-kukreja/IsItMutual-)
 
 ---
