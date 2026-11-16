@@ -128,7 +128,7 @@ From this extensive survey, we engineered and pruned down to **25 high-signal ca
 
 ### Target Variable & Class Imbalance
 The target variable is `match`:
-$$\text{match} = 1 \iff (\text{dec} = 1 \land \text{dec\_o} = 1)$$
+$$\text{match} = 1 \iff (\text{dec} = 1 \land \text{dec\\_o} = 1)$$
 
 Out of 8,378 dates:
 - **No Match (`0`):** 6,998 dates (83.53%)
@@ -167,7 +167,7 @@ A critical methodological challenge in speed dating data is **pairwise observati
 If directional rows from the same date are randomly split across training and validation sets, the model could easily "cheat" by memorizing the partner's reciprocal outcome.
 
 To prevent data leakage, we created pair-level identifiers:
-$$\text{Group ID} = \text{wave} + \text{"\_"} + \min(\text{iid}, \text{pid}) + \text{"\_"} + \max(\text{iid}, \text{pid})$$
+$$\text{Group ID} = \text{wave} + \text{"\\_"} + \min(\text{iid}, \text{pid}) + \text{"\\_"} + \max(\text{iid}, \text{pid})$$
 
 We then used **`GroupShuffleSplit`** and **`GroupKFold`** to guarantee that both directions of every date remain strictly grouped together:
 - **Train Set (60%):** 5,022 interactions
