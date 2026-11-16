@@ -7,6 +7,8 @@
 [![Swagger Docs](https://img.shields.io/badge/API-Swagger%20UI-85EA2D?logo=swagger&logoColor=black)](https://isitmutual.onrender.com/docs)
 [![ML Zoomcamp](https://img.shields.io/badge/Project-ML%20Zoomcamp%20Midterm-FF6F00)](https://github.com/DataTalksClub/machine-learning-zoomcamp)
 
+💘 Ever wondered if the person you like might like you back? IsItMutual? explores the possibility of mutual interest using the science of dating and a little help from AI. Because sometimes, the biggest question is: "Do they feel the same way?"
+
 > **"IsItMutual"** predicts whether two people on a speed date will both say "yes" (a mutual match), based on demographic profiles, pre-date preferences, and post-date impressions from the Columbia University Speed Dating experiment.
 
 🔗 **Live Application URL:** [https://isitmutual.onrender.com](https://isitmutual.onrender.com)  
